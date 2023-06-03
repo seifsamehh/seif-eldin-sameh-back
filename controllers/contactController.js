@@ -46,7 +46,7 @@ exports.sendEmail = async (req, res) => {
     <div style="background-image: url('https://i.ibb.co/4j7mX9B/wave-haikei.png'); background-repeat: no-repeat; background-size: cover; background-position: top;">
       <img src="https://i.ibb.co/zJH7TND/poster.png" width="150" height="150" alt="logo"/><br/>
       <p>Thank you for contacting me! I will get back to you shortly.</p></br>
-      <p style="direction: rtl;">شكرا لاتصالك بي! سوف أعود اليك قريبا</p>
+      <p style="direction: rtl;">شكرا لتواصلك معى! سوف أعود اليك قريبا</p>
     </div>
     `,
   };
