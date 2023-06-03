@@ -12,14 +12,14 @@ exports.sendEmail = async (req, res) => {
   });
 
   const mailOptions = {
-    from: email,
-    to: "seiffsameh00@gmail.com",
+    from: "seiffsameh00@gmail.com",
+    to: email,
     subject: "Seif Eldin Sameh Form",
     text: `Email: ${email}`,
     html: `
     <div style="background-image: url('https://i.ibb.co/4j7mX9B/wave-haikei.png'); background-repeat: no-repeat; background-size: cover; background-position: top;">
-      <img src="https://i.ibb.co/zJH7TND/poster.png" width="150" height="150" alt="logo"/><br/>
       <p>From: ${email}</p><br/>
+      <img src="https://i.ibb.co/zJH7TND/poster.png" width="150" height="150" alt="logo"/><br/>
       <p><b>${message}</b></p>
     </div>
     `,
