@@ -17,7 +17,7 @@ exports.sendEmail = async (req, res) => {
     subject: "Seif Eldin Sameh Form",
     text: `Email: ${email}`,
     html: `
-    <img src="https://i.ibb.co/zJH7TND/poster.png" width="300" height="300" alt="logo"/><br/><p>From: ${email}</p><br/><p><b>${message}</b></p><br/><img src="https://i.ibb.co/M5RxRLH/signature.png" width="200" height="200" alt="signature"/>
+    <img src="https://i.ibb.co/zJH7TND/poster.png" width="300" height="300" alt="logo"/><br/><p>From: ${email}</p><br/><p><b>${message}</b></p>
     `,
   };
 
