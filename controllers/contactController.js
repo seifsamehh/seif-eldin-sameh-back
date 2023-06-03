@@ -12,8 +12,8 @@ exports.sendEmail = async (req, res) => {
   });
 
   const mailOptions = {
-    from: "seiffsameh00@gmail.com",
-    to: email,
+    from: email,
+    to: "seiffsameh00@gmail.com",
     subject: "Seif Eldin Sameh Form",
     text: `Email: ${email}`,
     html: `
